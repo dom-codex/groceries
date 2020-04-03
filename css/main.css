@@ -133,6 +133,7 @@ i{
 }
 .card{
     padding:0 0 10px 10px;
+    margin-left: 10px;
 }
 .card h3{
     color:#fff;
@@ -141,6 +142,7 @@ i{
 }
 .card p{
     color:lightgray;
+    width:50%;
 }
 #footer{
     background-color: #252b46;
@@ -175,6 +177,7 @@ i{
     } 
 }
 @media all and (min-width:750px){
+    .card p{width:100%;}
     #p-1,#p-2{
         font-size:2em;
     }
